@@ -65,7 +65,7 @@ If referring to this code in a publication, please consider using the following 
 > Cox, Christopher. 2025. pyannote-audio-elan: An implementation of pyannote.audio speaker diarization and voice activity detection services as a recognizer for ELAN. Version 0.1.0.
 
 ```
-@manual{cox23pyannoteaudioelan,
+@manual{cox25pyannoteaudioelan,
     title = {pyannote-audio-elan: An implementation of pyannote.audio speaker diarization and voice activity detection services as a recognizer for {ELAN}.},
     author = {Christopher Cox},
     year = {2025}
