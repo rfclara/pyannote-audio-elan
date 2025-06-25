@@ -27,4 +27,4 @@ export PYTORCH_ENABLE_MPS_FALLBACK=1
 
 # Activate the virtual environment, then execute the main recognizer script.
 source ./venv-pyannote-audio-elan/bin/activate
-exec python3 ./pyannote-audio-elan.py $1 >> ./elan_wrapper_debug.log 2>&1
+exec python3 ./pyannote-audio-elan.py $1 > ./elan_wrapper_debug.log 2>&1
