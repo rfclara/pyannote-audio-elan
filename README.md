@@ -14,6 +14,7 @@ pyannote-audio-elan makes use of several of other open-source applications and u
 * [ffmpeg](https://ffmpeg.org)
 
 pyannote-audio-elan is written in Python 3, and also depends on a number of Python packages that can be installed using `pip` in a virtual environment. Under macOS 15, the following commands can be used to fetch and install the necessary Python packages:
+### Bash
 ```
 git clone https://github.com/coxchristopher/pyannote-audio-elan
 cd pyannote-audio-elan
@@ -22,6 +23,14 @@ python3.10 -m venv venv-pyannote-audio-elan
 source venv-pyannote-audio-elan/bin/activate
 pip install -r requirements.txt
 chmod +x pyannote-audio-elan.sh
+```
+### Windows PowerShell
+```
+git clone https://github.com/coxchristopher/pyannote-audio-elan
+cd .\pyannote-audio-elan\
+py -3.10 -m venv venv-pyannote-audio-elan
+.\venv-pyannote-audio-elan\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
 
 Once all of these tools and packages have been installed, pyannote-audio-elan can be made available to ELAN as follows:
